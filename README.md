@@ -36,7 +36,6 @@ Flixter integrates the following:
 <div id="setup"></div> 
 
 ## Getting Started ##
-### Set Up ###
 <p>In your coding environment, create a new application using PostgreSQL:</p>
 <pre><code> $ rails new grammable --database=postgresql </code></pre>
 
@@ -51,6 +50,24 @@ create project in heroku and then deploy it to heroku</code></pre>
 
 ### Setting Up Testing Environment ###
 Install RSpec following the <a href="https://github.com/rspec/rspec-rails">RSpec</a> documentation
+
+Once the spec folder is created,we can remove the default Ruby on Rails <code>Test::Unit</code>.
+<pre>$ rm -rf test</pre>
+
+Now, run this command to run the test suite.
+<pre>$ bundle exec rspec</pre>
+
+Then, run the test suite again by running the following command:
+<pre>$ bundle exec rspec</pre>
+
+It tells us we have one test that is pending. So edit <code>spec/helpers/grams_helper_spec.rb </code>and remove the line so it looks like this:
+<pre>RSpec.describe GramsHelper, type: :helper do
+end 
+</pre>
+
+Save the file and run the test suite again. The response returns to tell us we don't have any tests failing or passing. 
+
+Now you may begin creating and running tests!
 
 <div id="usage"></div> 
 

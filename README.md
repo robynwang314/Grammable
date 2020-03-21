@@ -47,7 +47,7 @@ Flixter integrates the following:
 
 <p>In a separate terminal window, enter into your Grammable folder and set up the web development pipeline</p>
 <pre><code>create new Github repository
-  create project in heroku and then deploy it to heroku</code></pre>
+create project in heroku and then deploy it to heroku</code></pre>
 
 ### Setting Up Testing Environment ###
 Install RSpec following the <a href="https://github.com/rspec/rspec-rails">RSpec</a> documentation

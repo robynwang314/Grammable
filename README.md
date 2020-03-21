@@ -50,7 +50,7 @@ Flixter integrates the following:
   create project in heroku and then deploy it to heroku</code></pre>
 
 ### Setting Up Testing Environment ###
-Install RSpec following the <a href="https://github.com/rspec/rspec-rails">RSpec</a>documentation
+Install RSpec following the <a href="https://github.com/rspec/rspec-rails">RSpec</a> documentation
 
 <div id="usage"></div> 
 

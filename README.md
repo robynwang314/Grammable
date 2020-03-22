@@ -21,7 +21,7 @@ This Instagram clone was created as a part of UC Berkeley Extension's Coding Boo
 <div id="technologies"></div> 
 
 ## Built With ##
-Flixter integrates the following: 
+Grammable integrates the following: 
 <ul>
   <li><a href="https://aws.amazon.com/" rel="nofollow">AWS</a></li>
   <li><a href="https://github.com/twbs/bootstrap-rubygem">Bootstrap </a></li>
